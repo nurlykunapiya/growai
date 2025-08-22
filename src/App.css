@@ -1,0 +1,106 @@
+.container {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #182A4F; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height:100vh;
+  width: 100%;
+  width: 100vw;
+}
+.titlegrow {
+  font-size: 6rem;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 100px;
+  font-weight: 900;
+  color: linear-gradient(90deg, #00ffcc, #00aaff);
+  font-size: 100px;
+  font-weight: 900;
+  background: linear-gradient(90deg, #00ffcc, #00aaff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100px;
+  font-weight: 900;
+  background: linear-gradient(90deg, #00ffcc, #00aaff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.slogan {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 20px;
+  background: linear-gradient(90deg, #00ffcc, #00aaff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+
+.planner-container {
+  background: #912828;
+  padding: 20px;
+  width: 400px;
+  color: white;
+  width: 100%;
+}
+
+.planner-input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.planner-textfield {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+.planner-button {
+  background: linear-gradient(90deg, #00ffcc, #00aaff);
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.planner-task {
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 6px;
+  margin-bottom: 5px;
+  transition: 0.2s;
+}
+
+.planner-task.done {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.progress-bar {
+  background: #333;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 10px;
+  margin-top: 10px;
+}
+
+.progress-fill {
+  background: linear-gradient(90deg, #00ffcc, #00aaff);
+  height: 100%;
+  transition: width 0.3s ease;
+}
